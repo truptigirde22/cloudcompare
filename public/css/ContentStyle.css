@@ -1,0 +1,808 @@
+
+html, body {height: 100%;font-size:1.25em;
+    margin: 0;background:#efefef;font-family:Segoe UI; }
+#wrapper {min-height:100%;margin: 0 auto -75px;}
+#header {background-color:#2F2F2F ;
+    min-width:100%;height:85px;float:left}
+#headerContent {width:1150px;margin:0 auto;
+    font-size:1.5em;color:white;}
+#separator {height:60px;}
+#content {margin:0 auto;width:1150px;padding:10px;}
+#footer {background:#2F2F2F;min-width:100%;height:50px;float:left;display: none;}
+#footerContent {margin: 0 auto;width:1150px;padding:10px;color: white;font-size: 15px;text-align: center;}
+
+#logo{
+    font-size: 18px;
+    float: left;
+    width: 185px;
+    padding-top: 0.5%;
+}
+#logo img{
+    height: 50px;
+    float: left;
+    margin-right: 3%;
+    padding-top: 6%;
+
+}
+#logo span{
+    font-family:Segoe UI; 
+}
+ul
+{
+    position: relative;
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0px;
+}
+li a{
+   font-size:  18px;
+   color: white;
+   text-decoration:none;
+   font-family: Segoe UI;
+   display: block;
+}
+
+li {
+    width: 128px;
+    height: 85px;
+    text-align: center;
+    line-height: 85px;
+}
+
+li a:hover{
+    background-color: #0F5496;
+}
+
+/****************For Home page*****************/
+.leftContent
+{
+width: 12%;
+padding-top: 2%;
+float: left;
+}
+.rightContent {
+    width: 78.4%;
+    float: right;
+    padding: 2%;
+    padding-top: 2%;
+    padding-right: 4%;
+    min-height: 603px;
+}
+
+#dynamicContent
+{
+    background-color: white;
+    border-radius: 15px;
+}
+/*****************END****************************/
+/*****************LeftNav********************/
+.ul1{
+    background-color: #efefef;
+    display: inline-block;
+    padding: 0;
+    }
+    .li1 {
+    position: relative;
+    display: block;
+    width: 180px;/*165px*/
+    height: 52px;
+    border-radius: 0px 5px 5px 0px;
+    background: #0078D7;
+    /*font: 22px Constantia, sans-serif;*/
+    padding: 0px;
+    color: blue;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 1%;
+    margin-bottom: 6%;
+    }
+    .li1 a{
+        padding: 0;
+        width:180px;/*trupti*/
+        /*margin-left: 12px;*//*trupti*/
+        float: left;
+        }
+    .Side-Menu-logo{
+        float: left;
+        margin-top: 11px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    /****************END*****************/
+    .singlecloud {
+        width: 25%;
+        float: left;
+        padding: 2% 4%;
+        padding-top: 1%;
+    }
+    
+    .singlecloud img {
+        height: 50px;
+        
+        padding:3%;
+    }
+    .singlecloud .chk{
+        vertical-align: top;
+        cursor: pointer;
+    }
+    .divName {
+        
+        /*font-family: "Segoe UI semilight";
+        padding-left: 2%;
+        font-size: 24px;
+        padding-top: 1%;
+        margin-bottom: 0px;   */
+        font-family: "Segoe UI semilight";
+        padding-left: 2%;
+        font-size: 24px;
+        margin-top: 0px !important;/*padding-top: 1%;*/
+        margin-bottom: 0px;  
+        font-weight:normal;         
+    }
+    
+    .cloudOption
+    {
+        height: 125px;
+        background-color: white;
+        border-radius: 15px;
+        padding-top: 8px;
+    }
+    .cloudSelection{
+        border-style: solid;
+        border-width: 0.2px;
+        border-color: #02B5AD;
+
+    }
+    /*************CloudServices*******************/
+    .cloudServer {
+        height: 100px;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 1%;
+
+    }
+    .divContent{
+        width:62%;
+        font-size: 14px;
+        font-family: 'Segoe UI';
+        padding-left: 1%;
+    }
+    .divSubContent{
+        padding-left: 2%;
+        padding-top: 1%;
+    }
+    /******************Filter Sec*******************/
+    .filters{
+        /*height: 155px;*//*trupti*/
+        background-color: white;
+        margin-top: 1%;
+        border-radius: 15px;
+        padding-bottom: 10px;
+        
+    }
+    table{
+        font-family: 'Segoe UI';
+        font-size: 14px;
+        width: 100%;
+        padding: 1% 2%;
+    }
+    
+     /*-----------------------------------New Code for Dropdown menu by Rahul--------------------------------------*/
+    .Dropdownmenu {
+        cursor: pointer;
+        width:204px;
+        height:25px;
+        background-color: white;
+        border-radius: 4px;
+       color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        border:1px solid #1da8ad;
+        }
+
+        .CloudServiceDD{
+            cursor: pointer;
+            padding-left: 60px;
+           border-radius: 3px;
+           margin-right: 25px;
+           margin-top: 30px;
+           margin-right: 40px;
+           float: right;
+          height: 40px;
+           width:280px;
+        color:white;  
+         text-align-last:center;
+         background-color: #1da8ad;  
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 18px;
+         text-align: center !important;
+         border:3px solid #1da8ad;
+        
+         }
+         .CloudServiceDD:focus::-ms-value {
+            color: white; 
+            background:#1da8ad ;
+        }
+        
+        .CloudServiceDD:active {
+            color: white;
+            background-color: #424041;
+          }
+
+     /* .CloudServiceDD:focus::-ms-value {
+    color: white; 
+    background:#424041  ;
+} */
+td{
+    padding-left: 0px;
+    /*padding-bottom: 20px;*//*trupti*/
+    vertical-align: top;
+    /*width:30%;/*trupti*/
+ }
+ /*-----------------------------------New Code for Dropdown menu by Rahul--------------------------------------*/
+/*...............Gobtn.................*/
+.GoBtn {
+    background-color: #0cb2ac;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width:200px;
+    cursor: pointer;
+}
+.btnDiv {
+    margin-top: -1.5%;
+    margin-left: 40%;
+    margin-bottom: 1.5%;
+}
+
+    
+
+
+/**********added by trupti**********/
+.selected{
+ 
+background-color: #0F5496;   
+ 
+  }
+.results{
+    /*height: 1000px;*/
+    background-color: white;
+    /*margin-top: -12px;*/
+    border-radius: 15px;
+    /*display: flex;*//*commented by trupti*/
+    display: none;
+
+    padding-bottom: 20px;
+}
+.cloudHeader {
+    margin: 2%;
+    margin-top: -8px;
+    padding-top: 1.5%;
+    margin-bottom: 1%;
+}
+.active {
+    background-color: green;
+  }
+  li link:selection{background-color:green}
+  li link:selected{background-color:green}
+  li::selection{background-color:green}
+.resultContainers{
+    height:auto;/* 70px;*/
+    width:95%;
+    float: left;
+    border: #7fc6ff 1px solid;
+    margin-left: 2.5%;
+    border-radius: 15px;
+    margin-top: 1%;
+    margin-bottom: 5px;
+}
+.resultContainers table tr td {
+    padding-left: 2px;
+    font-weight: normal;
+    color: black;
+    font-family: Segoe UI Semilight;
+    font-size: 15px;
+    width: 30%;
+}
+
+.heading{
+   /* font-weight: bold;*/
+}
+
+#hiddenbuttonGoogle{
+    display: none;
+}
+#hiddenbuttonAzure{
+    display: none;
+}
+#hiddenbuttonAWS{
+    display: none;
+}
+/*- ------------- For Loader on Page Load -----*/
+#loading {
+    font-size:12pt;
+    font-weight:400;
+    color:white;
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    bottom:0;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("../Image/Loader1.gif");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+/*- ------------- For Loader on Button Click -----*/
+
+/**********Added by trupti*************************/
+
+.Collapsible__trigger{
+    background-image:url("../Image/arrowDown.png");
+    opacity: -1;
+    background-repeat: no-repeat;
+    background-position-x: 12%;
+    background-position-y: 80%;
+    color:transparent;
+    padding-left: 50px;
+    font-size: 20px;
+    background-size:15px 15px;
+    cursor: pointer;
+    font-weight: lighter;
+    }
+    .resultsCSS{
+        color:rgb(27, 9, 9);   
+    }
+    .cloudNameDiv{
+        display: none;
+        color: white;
+        font-size: 2px;
+        margin: 0px;
+    }
+    .priceDiv{/*trupti*/
+        /*padding-top: 10px;
+        text-align: center;
+        border-radius: 20px;
+        height: 35px;
+        font-size: 20px;
+        color: black;
+        background-color:#fede87;/* rgba(254, 190, 16, 1);*/
+        word-break: break-all;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 20px;
+        color: black;
+        background-color: #fede87;        
+    }
+    .offersCount{
+        padding-left: 50px;
+        font-family: "Segoe UI semilight";
+       /* padding-left: 2%;*/
+        font-size: 18px;
+        margin-top: 0px !important;/*padding-top: 1%;*/
+        margin-bottom: 0px;   
+    }
+
+     /*.................................New code Added By Rahul.................................*/
+
+     .SNtable{
+        /*padding: 0; */
+        border-spacing: none;
+        padding-top: 0!important;
+       
+    }
+    .sntable{
+      
+        border-spacing: none;
+        padding-top: 0 !important;
+       
+    }
+    .txtbox{
+        width:200px;
+        height: 20px;
+        border:1px solid #1da8ad;
+    }
+    .storageDD{
+        width:204px;
+        height: 25px;
+        border:1px solid #1da8ad;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    #transferTable .StorageTD {
+        cursor: pointer;
+        padding-right: 0px;
+        width: 147px;
+        padding-top: 15px;
+    }
+    #awsTable .StorageTD {
+        padding-right: 0px;
+        width: 147px;
+        padding-top: 15px;
+    }
+    #regionNetworking{
+        width: 147px;
+    }
+    #regionStorage{
+        width: 147px;
+    }
+    .slider{
+        width:200px;
+        padding: 0px;
+    }
+    .sliderCompute{
+        width:204px;
+        padding: 0px;
+        margin-top: 15px !important;
+    }
+    .divRam{
+        padding-top: 9px;
+    }
+    .divVcpu{
+        padding-top: 10px;
+    }
+.divDDLVCPU{
+        padding-top: 9px;
+    }
+    .StorageDiv{
+    
+       /* height: 240px;*//*trupti*/
+        background-color: white;
+        margin-top: 1%;
+        border-radius: 15px;
+        padding-bottom: 10px;
+    }
+    .SNtable td{
+        position: relative;
+    }
+    .StorageTD{
+        padding-top: 15px;
+    }
+    label{
+        font-size:14px;
+        font-family: 'Segoe UI';
+        font-weight: normal;
+    }
+      /*trupti*/
+      .selectedLeftMenu{
+        
+       background-color: #0F5496;    
+        
+         }
+         /*.leftDiv{
+            width: 25%; float: left;
+         }
+         .rightDiv {
+            width: 65%;
+            color: red;
+            float: right;
+        }
+        
+         .leftDivCompute{
+            width: 55%; float: left;
+         }
+         .rightDivCompute {
+            width: 25%;
+            color: red;
+            float: left;
+        }
+        */
+        .leftDiv{
+            float: left;
+        }
+        .rightDiv {
+           margin-left: 5%;
+           color: red;
+           float: left;
+       }
+       
+        .leftDivCompute{
+            float: left;
+        }
+        .rightDivCompute {
+           margin-left: 5%;
+           color: red;
+           float: left;
+       }
+
+         /*..........................................Overrided CSS for slider By Rahul......................................*/
+    .rangeslider-horizontal .rangeslider__fill {
+        height: 100%;
+        background-color: #1da8ad !important;
+        border-radius: 10px;
+        top: 0
+    }
+    .rangeslider-horizontal .rangeslider__handle {
+        width: 5px !important;
+        height: 12px !important;
+        border-radius: 0px !important;
+        top: 50%;
+        transform: translate3d(-50%, -50%, 0)
+    }
+    .rangeslider-horizontal .rangeslider__handle:after {
+        content: ' ';
+        position: absolute;
+        width: 0px !important;
+        height: 0px !important;
+        top: 0px !important;
+        left: 0px !important;
+        border-radius: 0% !important;
+        background-color: #dadada;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .4) inset, 0 -1px 3px rgba(0, 0, 0, .4) inset
+    }
+    .rangeslider-horizontal{
+        height: 5px !important;
+    }
+/*
+    #tablNetworking{display: none}
+    #transferTable{display: none}*/
+
+     /*.............................New code for Slider TD Range labels for storage and networking by Rahul......................................*/
+
+     .Slidertd1{
+        margin: 0px;
+       padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        overflow: hidden;
+        display: inline-block;
+        white-space: nowrap;
+    }
+    .Slidertd2{
+        width:40px;
+        padding-left: 75px;
+         padding-top: 0px;
+         padding-bottom: 0px;
+         overflow: hidden;
+         display: inline-block;
+         white-space: nowrap;
+         text-align: center;
+     }
+     .Slidertd3{
+         width: 40px;
+         margin-right: 4px;
+         padding-right: 0px;
+      padding-left: 35px;  
+         padding-top: 0px;
+         padding-bottom: 0px;
+         overflow: hidden;
+         display: inline-block;
+         white-space: nowrap;
+     }
+    .TableSliderRange{
+        border-spacing: 10px;
+        border-spacing: 0;
+        border-collapse: collapse;
+    }
+    .SliderRangeValues1{
+        float: left;
+        font-size: 9px;
+        color: grey;
+    }
+    .SliderRangeValues2{
+        font-weight: bold;
+        font-size: 10px;
+    
+    }
+    
+    .SliderRangeValues3{
+        float: right;
+        font-size: 9px;
+        color: grey;
+
+    }
+    
+    
+    /*...................................................Slider labels for Compute.................................................*/
+
+    .Slidertd1Compute{
+        margin: 0px;
+       padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        overflow: hidden;
+        display: inline-block;
+        white-space: nowrap;
+    }
+    .Slidertd2Compute{
+        text-align: center;
+        width:40px;
+        padding-left: 73px;
+         padding-top: 0px;
+         padding-bottom: 0px;
+         overflow: hidden;
+         display: inline-block;
+         white-space: nowrap;
+     }
+     .Slidertd3Compute{
+         width: 40px;
+         margin-right: 4px;
+         padding-right: 0px;
+      padding-left: 44px;  
+         padding-top: 0px;
+         padding-bottom: 0px;
+         overflow: hidden;
+         display: inline-block;
+         white-space: nowrap;
+     }
+ .slider2Div{
+        margin-top: -15px !important;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+     /*************sneha*********/
+     .divNoOffer{
+        display: none;
+        font-size: 20px;
+        font-weight: normal;
+        font-family: "Segoe UI semilight";
+        text-align: center;
+        height: 40px;
+        padding-top: 10px;
+    }
+    
+    .note {
+        float: right;
+        padding: 4px;
+        border-radius: 5px;
+        width: 380px;
+        background-color: #feff9c;
+        margin-top: 1%;
+        font-weight: lighter;
+        margin-left: 2%;
+        font-size: 14px;
+    }
+    #filters{
+        float: left;
+    }
+    #transferTable{
+        padding-top: 0px !important;
+        margin-top : -8px !important;
+    }
+    #tablNetworking{
+        padding-bottom: 0px !important;
+    }
+    #awsTable{
+        padding-top: 0px !important;
+        margin-top : -8px !important;
+    }
+    .Egress1{pointer-events: none;}
+    .EgressInter{pointer-events: none;}
+
+/*------------ default hide Expand Collapse div's ------*/
+#azureResult{
+    display: none;
+}
+#awsResult{
+    display: none;
+}
+#googleResult{
+    display: none;
+}
+
+
+
+#loadingOnClick{
+    margin-left:50%;
+    background-size:contain;
+    display:none;
+    width:50px;
+    height:25px;
+    background-repeat:no-repeat;
+    background-image:url("../Image/Loader1.gif");
+} 
+
+.img-responsive{
+    width: 98%;
+}
+
+#comparetable td img {
+    max-width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    margin: 0px 15px 15px 0px;
+}
+.glyphicon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+    background-image: url("../Image/glyph.png");
+}
+
+.glyphicon-link:before{
+    content: "\e144";
+}
+#comparetable td ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#comparetable td li {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    float: left;
+}
+#comparetable td li img {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 0px;
+    vertical-align: middle;
+}
+
+
+/***********************************************************/
+.cloudDiv {
+    width: 22%;
+    float: left;
+    padding: 2% 4%;
+    padding-right: 5px;
+    padding-left: 20px;
+    padding-top: 1%;
+}
+
+.cloudDiv img {
+    width: 160px;
+    height: 58px;
+    padding: 3%;
+}
+
+.cloudDiv .chk{
+    vertical-align: top;
+    cursor: pointer;
+}
+.btnReports {
+    margin-top: -1.5%;
+    margin-left: 40%;
+    margin-bottom: 1.5%;
+    padding-bottom: 10px;
+}
+.logoBar{display: none !important}
+
+.reportDivider {
+    font-size: 20px;
+    width: 860px;
+    height: 31px;
+    background-color: #0cb2ac;
+    color: #fff;
+    display: inline-block;
+    padding-left: 4px;
+}
+
+
+.arrow {
+    border-style: dashed;
+    border-color: transparent;
+    border-width: 0.20em;
+    display: -moz-inline-box;
+    display: inline-block;
+    font-size: 81px;
+    line-height: 0;
+    position: relative;
+    vertical-align: middle;
+    background-color: #fff;
+    border-left-width: 0.2em;
+    border-left-style: solid;
+    border-left-color: #0cb2ac;
+}
+
+
+
+
+
+
